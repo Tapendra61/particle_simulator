@@ -1,4 +1,4 @@
-#include"window_manager.h"
+#include"windowManager.h"
 
 void WindowManager::run() {
 	InitWindow(WIDTH, HEIGHT, TITLE);

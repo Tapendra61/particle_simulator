@@ -9,7 +9,7 @@ private:
 	const char* TITLE;
 	const int FPS;
 public:
-	WindowManager(int WIDTH, int HEIGHT, char* TITLE, int FPS) : WIDTH(WIDTH), HEIGHT(HEIGHT), TITLE(TITLE), FPS(FPS){};
+	WindowManager(int WIDTH, int HEIGHT, const char* TITLE, int FPS) : WIDTH(WIDTH), HEIGHT(HEIGHT), TITLE(TITLE), FPS(FPS){}
 	void run();
 	void start();
 	void update();

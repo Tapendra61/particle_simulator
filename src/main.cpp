@@ -1,5 +1,5 @@
 #include<iostream>
-#include"window_manager.h"
+#include"windowManager.h"
 int main(void) {
 	int width = 800;
 	int height = 800;
