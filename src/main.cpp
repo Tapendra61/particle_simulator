@@ -1,8 +1,12 @@
 #include<iostream>
-#include"raylib.h"
-
+#include"window_manager.h"
 int main(void) {
-	InitWindow(800, 800, "Particle Simulator");
+	int width = 800;
+	int height = 800;
+	const char* title = "Particle Simulator";
+	int fps = 60;
+	WindowManager window_manager{width, height, title, fps};
+	window_manager.run();
 
 	return 0;
 }
