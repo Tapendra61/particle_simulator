@@ -2,7 +2,6 @@
 #include"raylib.h"
 #include<iostream>
 #include"grid.h"
-#include"input.h"
 
 class WindowManager {
 private:

@@ -23,7 +23,8 @@ void WindowManager::start() {
 }
 
 void WindowManager::update() {
-
+	int index = grid->mouse_to_grid_index();
+	std::cout << "Grid Index: " << index << std::endl;
 }
 
 void WindowManager::late_update() {

@@ -2,6 +2,7 @@
 #include"particle.h"
 #include"raylib.h"
 #include<vector>
+#include<iostream>
 
 class Grid {
 private:
@@ -15,5 +16,6 @@ public:
 	std::vector<Particle> particle_grid;
 
 	Grid(int grid_width, int window_width);
-	void debug_grid(int window_width);
+	int mouse_to_grid_index() const;
+	void debug_grid(int window_width) const;
 };
