@@ -133,7 +133,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\particle.h" />
     <ClInclude Include="include\windowManager.h" />
+    <ClCompile Include="src\grid.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\windowManager.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
