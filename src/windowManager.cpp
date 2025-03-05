@@ -23,7 +23,7 @@ void WindowManager::start() {
 }
 
 void WindowManager::update() {
-	Vector2 click_pos = get_click_pos();
+
 }
 
 void WindowManager::late_update() {

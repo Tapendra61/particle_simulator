@@ -7,6 +7,10 @@ Grid::Grid(int grid_width, int window_width) {
 	particle_grid.reserve(cell_count);
 }
 
+int mouse_to_grid_index() {
+
+}
+
 void Grid::debug_grid(int window_width) {
 	for (int i = 0; i < window_width; i += cell_size) {
 		DrawLine(i, 0, i, window_width, debug_color);
